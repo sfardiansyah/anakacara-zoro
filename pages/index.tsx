@@ -138,7 +138,7 @@ class MobileContainer extends Component<{}, { sidebarOpened: boolean }> {
     const { sidebarOpened } = this.state
 
     return (
-      <Media as={Sidebar.Pushable} at='mobile'>
+      <Media at='mobile'>
         <Sidebar.Pushable>
           <Sidebar
             as={Menu}
